@@ -1,0 +1,161 @@
+/* Responsive */
+
+/* Max Tablet */
+@media (max-width:922px) {
+    .menu_mobile {
+        text-align: center;
+    }
+
+    .menu_mobile li {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .profile_section_content_p {
+        margin-left: 30px;
+    }
+
+    .profile_section_content_img img {
+        width: 20%;
+    }
+}
+
+/* Max S - M - L Mobile */
+@media (max-width: 540px) {
+
+    header {
+        position: unset !important;
+    }
+
+    header h1 a {
+        font-size: 20px;
+    }
+
+    .container,
+    .mark_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main_section h2 {
+        margin-top: 15px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .profile_section h3 {
+        font-size: 16px !important;
+    }
+
+    p,
+    header nav a {
+        font-size: 14px;
+    }
+
+    .main_section_img {
+        margin-top: 0;
+    }
+
+    main img {
+        width: 100% !important;
+    }
+
+    .petunjuk_lokasi,
+    a.btn {
+        font-size: 14px;
+    }
+
+    a.btn {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    .artikel_section .img_credit {
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 15px;
+    }
+
+    .mark_container mark {
+        font-size: 13px;
+    }
+
+    footer .row {
+        flex-direction: column;
+    }
+
+    .footer_sosmed {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .text_justify {
+        text-align: unset !important;
+    }
+
+    .profile_section .d_flex {
+        flex-direction: column;
+    }
+
+    aside h3 {
+        text-align: center;
+    }
+
+    .profile_section_content_img img {
+        width: 50%;
+    }
+
+    .profile_section_content_p {
+        margin-left: unset;
+        margin-top: 15px;
+    }
+
+    /* Burger Style */
+    .burger_menu {
+        display: block;
+    }
+
+    .nav_center {
+        display: none;
+        margin-top: 20px;
+    }
+
+    .menu_active,
+    .nav_center {
+        display: block;
+    }
+
+    .menu_active,
+    .menu_navigasi {
+        display: block;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav_center ul li a {
+        display: block !important;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+
+    /* new */
+    .menu_active header {
+        min-height: 100vh;
+        background-color: #131516;
+        color: white;
+    }
+
+    .menu_active .menu_mobile {
+        display: flex;
+    }
+
+
+
+} 
